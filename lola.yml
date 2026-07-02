@@ -1,0 +1,21 @@
+---
+name: "Lolables Marketplace"
+description: >-
+  Open-source skills and modules for AI-assisted
+  development workflows
+version: "1.0.0"
+modules:
+  - name: "skill-commit"
+    description: >-
+      Conventional commit skill with tpope 50/72 rule
+      enforcement. Generates commit messages from staged
+      changes and proposes explicit git add for
+      session-touched files.
+    version: "main"
+    repository: "https://github.com/lolables/skill-commit.git"
+    tags:
+      - "git"
+      - "commit"
+      - "conventional-commits"
+      - "development"
+      - "all"
